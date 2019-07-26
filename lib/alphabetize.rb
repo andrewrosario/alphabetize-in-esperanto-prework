@@ -5,8 +5,8 @@ def alphabetize(arr)
   values = *(1..alphabet.length)
   arr.sort_by do |phrase|
     phrase.char.map do |char|
-      
+      values[alphabet.find_index(char)]
     end
-    values[alphabet.find_index(phrase[0])]
+    
   end
 end
