@@ -1,5 +1,7 @@
 def alphabetize(arr)
   # code here
-  esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  alphabet = esperanto.split("")
+  puts alphabet
   
 end
