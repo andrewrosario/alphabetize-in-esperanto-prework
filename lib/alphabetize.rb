@@ -2,6 +2,7 @@ def alphabetize(arr)
   # code here
   esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   alphabet = esperanto.split("")
-  alphabet
+  values = Array.new(1..alphabet.length)
+  values
   
 end
