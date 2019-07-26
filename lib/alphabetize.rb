@@ -3,6 +3,6 @@ def alphabetize(arr)
   esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   alphabet = esperanto.split("")
   values = *(1..alphabet.length)
-  values
+  arr.sort_by(|phrase| )
   
 end
