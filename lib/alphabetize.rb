@@ -4,7 +4,7 @@ def alphabetize(arr)
   alphabet = esperanto.split("")
   values = *(1..alphabet.length)
   arr.sort_by do |phrase|
-    
+    phrase[0]
     
   end
   
