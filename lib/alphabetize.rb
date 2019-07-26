@@ -4,9 +4,8 @@ def alphabetize(arr)
   alphabet = esperanto.split("")
   values = *(1..alphabet.length)
   arr.sort_by do |phrase|
-    phrase.char.map do |char|
+    phrase.chars.map do |char|
       values[alphabet.find_index(char)]
     end
-    
   end
 end
