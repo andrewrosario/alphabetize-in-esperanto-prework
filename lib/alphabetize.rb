@@ -5,7 +5,5 @@ def alphabetize(arr)
   values = *(1..alphabet.length)
   arr.sort_by do |phrase|
     values[alphabet.find_index(phrase[0])]
-    
   end
-  
 end
